@@ -1,0 +1,40 @@
+<l-button l-class="btn" size="long" bind:lintap="onGetToken">获取Token</l-button>
+<l-button l-class="btn" size="long" bind:lintap="onVerifyToken">验证Token</l-button>
+
+<l-button l-class="btn" size="long" bind:lintap="onTestInterceptor">测试拦截机制</l-button>
+
+<l-button type="warning" l-class="btn" size="long" bind:lintap="onCollectCoupon">领取优惠券</l-button>
+
+<l-button type="warning" l-class="btn" size="long" bind:lintap="onGetMyCoupons">我的优惠券</l-button>
+
+<l-button type="warning" l-class="btn" size="long" bind:lintap="onGetCouponAvailable">我可用的优惠券（带分类数据）</l-button>
+
+<l-button type="warning" l-class="btn" size="long" bind:lintap="onPlaceOrder1">下单（1）</l-button>
+
+<l-button type="warning" l-class="btn" size="long" bind:lintap="onPlaceOrder2">下单（2）</l-button>
+
+<l-button type="warning" l-class="btn" size="long" bind:lintap="onGetUnpaidOrders">查询待支付订单</l-button>
+
+<l-button type="warning" l-class="btn" size="long" bind:lintap="onGetAllOrders">查询全部订单</l-button>
+
+<l-button type="warning" l-class="btn" size="long" bind:lintap="onGetOrderDetail">查询订单详情</l-button>
+
+<l-button type="error" l-class="btn" size="long" bind:lintap="onPrepayOrder">支付(统一下单)</l-button>
+
+<l-button type="error" l-class="btn" size="long" bind:lintap="onPay">拉起微信支付</l-button>
+
+<l-button type="error" l-class="btn" size="long" bind:lintap="onDisLike">取消点赞</l-button>
+
+<l-button type="success" l-class="btn" size="long" bind:lintap="onGetHotBookList">获取热门书籍列表</l-button>
+
+<l-button type="success" l-class="btn" size="long" bind:lintap="onGetBookDetail">获取书籍详情</l-button>
+
+<l-button type="success" l-class="btn" size="long" bind:lintap="onBookSearch">搜索书籍</l-button>
+
+<l-button type="success" l-class="btn" size="long" bind:lintap="onGetMyFavorsBookCount">获取我喜欢书籍的数量</l-button>
+
+<l-button type="success" l-class="btn" size="long" bind:lintap="onGetBookFavor">获取书籍点赞情况</l-button>
+
+<l-button type="default" l-class="btn" size="long" bind:lintap="onAddShortComment">新增短评</l-button>
+
+<l-button type="default" l-class="btn" size="long" bind:lintap="onGetComments">获取书籍短评</l-button>

@@ -1,0 +1,18 @@
+spring:
+  profiles:
+    active: dev
+  jpa:
+    hibernate:
+      ddl-auto: none
+  #  默认返回驼峰命名形式, 返回时间戳
+  jackson:
+    property-naming-strategy: SNAKE_CASE
+    serialization:
+      WRITE_DATES_AS_TIMESTAMPS: true
+missyou:
+  api-package: io.github.xmchxup.missyou.api
+  year-codes: A,B,C,D,E,F,G,H,I,J,K,L
+wx:
+  appid: wx3473f7374d350ded
+  appsecret: 85d22bda5bfe3b1c79a7b18481d81d8e
+  code2session: https://api.weixin.qq.com/sns/jscode2session?appid={0}&secret={1}&js_code={2}&grant_type=authorization_code
